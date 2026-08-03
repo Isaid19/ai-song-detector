@@ -1,0 +1,33 @@
+# === REST API ===
+flask==3.0.3
+flask-cors==4.0.1
+werkzeug==3.0.3
+gunicorn==23.0.0
+
+# === Metadatos de audio ===
+mutagen==1.47.0
+
+# === Reconocimiento de canciones (Shazam) ===
+shazamio==0.8.1
+
+# === Análisis acústico ===
+librosa==0.10.2.post1
+soundfile==0.12.1
+numpy==1.26.4
+scipy==1.13.1
+
+# === pyAudioAnalysis (opcional, se usa como capa complementaria) ===
+# pyAudioAnalysis tiene dependencias pesadas (hmmlearn, eyed3, pydub, simplejson)
+# y no siempre es indispensable porque librosa ya cubre todas las
+# características acústicas solicitadas. Se deja disponible pero el código
+# funciona perfectamente si no se instala (fallback automático a librosa).
+# pyAudioAnalysis==0.3.14
+# hmmlearn==0.3.2
+# eyed3==0.9.7
+# pydub==0.25.1
+
+# === Lógica difusa ===
+scikit-fuzzy==0.4.2
+
+# === utilidades ===
+python-dotenv==1.0.1
