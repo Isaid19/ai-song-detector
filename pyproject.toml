@@ -6,6 +6,8 @@ dependencies = [
     "flask",
     "numpy",
     "pandas",
+    "Flask",
+    "Flask-Cors",
 ]
 
 [tool.vercel]
