@@ -8,7 +8,6 @@ dependencies = [
     "pandas",
     "Flask",
     "Flask-Cors",
-    "skfuzzy",
     "shazamio",
     "librosa"
 ]
