@@ -13,8 +13,8 @@ shazamio==0.8.1
 # === Análisis acústico ===
 librosa==0.10.2.post1
 soundfile==0.12.1
-numpy==1.26.4
-scipy==1.13.1
+numpy>=2.2.2,<3.0.0 #==1.26.4
+scipy>=1.13.0#scipy==1.13.1
 
 # === pyAudioAnalysis (opcional, se usa como capa complementaria) ===
 # pyAudioAnalysis tiene dependencias pesadas (hmmlearn, eyed3, pydub, simplejson)
