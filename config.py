@@ -26,7 +26,7 @@ AI_TOOL_SIGNATURES = {
     "LANDR": ["landr"],
     "Beatoven": ["beatoven", "beatoven.ai"],
     "Moises": ["moises", "moises.ai", "moisesai"],
-    "Undio": ["undio"],
+    "Udio": ["udio"],
     "MusicGPT": ["musicgpt", "music gpt", "MusicGPT", "MUSICGPT"],
     "GPT":["gpt", "GPT"],
     "ElevenLabs Music": ["elevenlabs music", "elevenlabs-music"],
